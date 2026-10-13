@@ -1,8 +1,12 @@
-#!/bin/blash
+#!bin/bash/bin
 
-$Person1=$1
-$Person2=$2
+START_TIME=$(date +%s)
+echo "Script started execution at: $START_TIME"
 
-echo "$Person1: how are you"
-echo "$Person2: I'm well $Person1, how are you"
-echo "$Person1: I am also good $Person2"
+sleep 10
+
+END_TIME=$(date +%s)
+echo "Script completed execution at: $END_TIME"
+
+TOTAL_TIME_TAKEN=$(($END_TIME-$START_TIME))
+echo "Total time taken for execution script: $TOTAL_TIME_TAKEN IN Sec"
