@@ -1,5 +1,3 @@
-#!bin/blash
+#!/bin/blash
 
 echo "Hello World!"
-
-
