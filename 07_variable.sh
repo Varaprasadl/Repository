@@ -9,4 +9,4 @@ endtime=$(date +%S)
 
 echo "Script completed time :: $(date +%S)"
 
-echo "Total time :: $($endtime-$starttime)
+echo "Total time :: $(($endtime-$starttime))
