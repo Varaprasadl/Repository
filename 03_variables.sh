@@ -1,4 +1,4 @@
-#!/bin/blash
+#!/bin/bash
 
 Person1=Ramesh
 Person2=Suresh

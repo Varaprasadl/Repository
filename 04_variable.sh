@@ -1,4 +1,4 @@
-#!/bin/blash
+#!/bin/bash
 
 Person1=$1
 Person2=$2

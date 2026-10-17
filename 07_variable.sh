@@ -1,14 +1,10 @@
 #!/bin/bash
 
-starttime=$(date +%S)
+script_start_time=$(date +%s)
+echo "Script start time :: $script_start_time"
 
-echo "Script statred time :: $starttime"
+script_end_time=$(date +%s)
+echo "Script end time :: $script_end_time"
 
-sleep 10
-endtime=$(date +%S)
-
-echo "Script completed time :: $endtime"
-
-Total_time = $(($endtime-$starttime))
-
-echo "total time is : $Total_time"
+Total_time=$(($script_start_time-$script_end_time))
+echo "Toatl time takne :: $Total_time"

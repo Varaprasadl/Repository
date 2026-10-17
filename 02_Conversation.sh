@@ -1,4 +1,4 @@
-#!/bin/blash
+#!/bin/bash
 
 echo "Ramesh: how are you"
 echo "Suresh: I'm well ramesh, how are you"
