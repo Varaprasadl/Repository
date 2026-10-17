@@ -11,4 +11,4 @@ echo "Script completed time :: $endtime"
 
 Total_time = $(($endtime-$starttime))
 
-echo "total time is $Total_time"
+echo "total time is : $Total_time"
