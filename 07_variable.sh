@@ -1,8 +1,8 @@
 #!/bin/bash
 
-person1="Ravi"
-person2="Sita"
-person3="Rama"
+person1=$1
+person2=$2
+person3=$3
 
 echo "$person1"
 
