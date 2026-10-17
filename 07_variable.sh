@@ -1,15 +1,12 @@
 #!/bin/bash
 
-person1=$1
-person2=$2
-person3=$3
+starttime=$(date +%S)
 
-echo "$person1"
-
-echo "Script statred time :: $(date +%S)
+echo "Script statred time :: $(date +%S)"
 
 sleep 10
+endtime=$(date +%S)
 
 echo "Script completed time :: $(date +%S)"
 
-echo "Toatl run time :: "
+echo "Total time :: $($endtime-$starttime)
